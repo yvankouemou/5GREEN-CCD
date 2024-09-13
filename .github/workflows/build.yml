@@ -18,6 +18,7 @@ jobs:
   
   
   build:
+    needs: test
     runs-on: ubuntu-latest
     steps:
     - name: copier code depuis github vers notre sereveur ubuntu
